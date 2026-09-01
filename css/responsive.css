@@ -1,0 +1,131 @@
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
+/* 1024px - Tablet Landscape & Smaller Desktop */
+@media (max-width: 1024px) {
+    :root {
+        --space-24: 4rem;
+        --space-32: 6rem;
+    }
+    
+    .hero-title {
+        font-size: clamp(2.5rem, 4vw, 3.5rem);
+    }
+    
+    .project-card {
+        grid-template-columns: 1fr;
+    }
+    
+    .project-visual {
+        min-height: 300px;
+        order: -1; /* Image on top on smaller screens */
+    }
+}
+
+/* 768px - Tablet Portrait */
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-8);
+    }
+    
+    .metrics-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: var(--space-6);
+        text-align: center;
+    }
+    
+    .footer-right {
+        text-align: center;
+    }
+    
+    .footer-links {
+        justify-content: center;
+    }
+}
+
+/* 480px - Mobile */
+@media (max-width: 480px) {
+    :root {
+        --space-12: 2rem;
+        --space-16: 3rem;
+        --header-height: 70px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+    
+    .about-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .project-content {
+        padding: var(--space-6);
+    }
+    
+    .modal-content {
+        padding: var(--space-6);
+    }
+    
+    .modal-title {
+        font-size: 1.75rem;
+    }
+    
+    .contact-actions {
+        flex-direction: column;
+    }
+}
+
+/* 360px - Small Mobile (No major changes needed, flex handles it) */
+
+/* Accessibility / Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    .reveal-up {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+    
+    .hero-glow {
+        animation: none;
+    }
+    
+    /* Disable custom cursor if reduced motion is on */
+    .cursor-dot, .cursor-outline {
+        display: none !important;
+    }
+    a, button, .btn, .project-card, .nav-link, body {
+        cursor: auto !important;
+    }
+}
