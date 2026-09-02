@@ -1,0 +1,102 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 3946 >>
+stream
+0.2 0.2 0.35 RG
+1.5 w
+25 25 562 792 re S
+BT
+/F2 26 Tf
+0.1 0.1 0.25 rg
+205 770 Td
+(P DHARSHITH) Tj
+ET
+BT
+/F2 12 Tf
+0.3 0.35 0.5 rg
+180 750 Td
+(B.TECH INFORMATION TECHNOLOGY) Tj
+ET
+0.8 0.8 0.85 RG
+1 w
+40 735 m 572 735 l S
+BT
+/F1 9.5 Tf
+0.2 0.2 0.25 rg
+45 722 Td
+(Ph: 9443518176  |  Loc: 3/444B, Jeeva Street, Jagir Ammapalayam, Salem  |  Email: dharshithpandiyan@gmail.com) Tj
+ET
+0.8 0.8 0.85 RG
+40 712 m 572 712 l S
+BT /F2 13 Tf 0.1 0.1 0.3 rg 45 690 Td (ABOUT ME) Tj ET
+0.2 0.2 0.4 RG 1.5 w 45 685 m 572 685 l S
+BT /F1 10 Tf 0.25 0.25 0.3 rg 45 667 Td (A motivated and enthusiastic B.Tech Information Technology student at M. Kumarasamy College of) Tj ET
+BT /F1 10 Tf 0.25 0.25 0.3 rg 45 653 Td (Engineering with a CGPA of 8.07. I am passionate about Java programming, software development,) Tj ET
+BT /F1 10 Tf 0.25 0.25 0.3 rg 45 639 Td (Artificial Intelligence, and Machine Learning. I enjoy solving programming problems and building innovative) Tj ET
+BT /F1 10 Tf 0.25 0.25 0.3 rg 45 625 Td (projects. I am eager to learn new technologies and contribute effectively as a team member while) Tj ET
+BT /F1 10 Tf 0.25 0.25 0.3 rg 45 611 Td (continuously improving my technical and communication skills.) Tj ET
+BT /F2 13 Tf 0.1 0.1 0.3 rg 45 587 Td (EDUCATION) Tj ET
+0.2 0.2 0.4 RG 1.5 w 45 582 m 572 582 l S
+BT /F2 10.5 Tf 0.15 0.15 0.2 rg 45 564 Td (Bachelor of Technology (B.Tech) - Information Technology) Tj ET
+BT /F2 10.5 Tf 0.3 0.3 0.4 rg 430 564 Td (2025 - 2029) Tj ET
+BT /F1 10 Tf 0.3 0.3 0.35 rg 45 549 Td (M. Kumarasamy College of Engineering, Karur) Tj ET
+BT /F2 10 Tf 0.1 0.5 0.4 rg 430 549 Td (CGPA: 8.07 | Sem: 3rd) Tj ET
+BT /F2 13 Tf 0.1 0.1 0.3 rg 45 524 Td (PROJECTS) Tj ET
+0.2 0.2 0.4 RG 1.5 w 45 519 m 572 519 l S
+BT /F2 10.5 Tf 0.15 0.15 0.2 rg 45 501 Td (1. Animal Health Predictor) Tj ET
+BT /F1 9.5 Tf 0.4 0.4 0.5 rg 210 501 Td ((Java, HTML, CSS, MySQL, Apache Tomcat)) Tj ET
+BT /F1 9.5 Tf 0.3 0.3 0.35 rg 60 487 Td (- Disease prediction module for automated livestock health assessment) Tj ET
+BT /F1 9.5 Tf 0.3 0.3 0.35 rg 60 474 Td (- Secure login authentication & structured report generation workflow) Tj ET
+BT /F2 10.5 Tf 0.15 0.15 0.2 rg 45 456 Td (2. Personal Portfolio Website) Tj ET
+BT /F1 9.5 Tf 0.4 0.4 0.5 rg 210 456 Td ((HTML5, CSS3, JavaScript, FormSubmit)) Tj ET
+BT /F1 9.5 Tf 0.3 0.3 0.35 rg 60 442 Td (- Modern interactive developer portfolio with preloader, dynamic typewriter, and case studies) Tj ET
+BT /F1 9.5 Tf 0.3 0.3 0.35 rg 60 429 Td (- AJAX contact form integration delivering visitor messages directly to Gmail) Tj ET
+BT /F2 13 Tf 0.1 0.1 0.3 rg 45 404 Td (CAREER OBJECTIVE & EXPERIENCE) Tj ET
+0.2 0.2 0.4 RG 1.5 w 45 399 m 572 399 l S
+BT /F2 10.5 Tf 0.15 0.15 0.2 rg 45 381 Td (Target Role: Software Developer / Full-Stack Engineer) Tj ET
+BT /F1 10 Tf 0.3 0.3 0.4 rg 430 381 Td (2026 - Present) Tj ET
+BT /F1 9.5 Tf 0.3 0.3 0.35 rg 45 367 Td (Eager to apply object-oriented design, web application development, and problem solving skills) Tj ET
+BT /F1 9.5 Tf 0.3 0.3 0.35 rg 45 354 Td (in a dynamic engineering team environment.) Tj ET
+BT /F2 13 Tf 0.1 0.1 0.3 rg 45 329 Td (TECHNICAL & PROFESSIONAL SKILLS) Tj ET
+0.2 0.2 0.4 RG 1.5 w 45 324 m 572 324 l S
+BT /F2 10 Tf 0.15 0.15 0.2 rg 45 306 Td (Programming Languages:) Tj ET
+BT /F1 10 Tf 0.3 0.3 0.35 rg 180 306 Td (Java, Python, C) Tj ET
+BT /F2 10 Tf 0.15 0.15 0.2 rg 45 291 Td (Web Technologies:) Tj ET
+BT /F1 10 Tf 0.3 0.3 0.35 rg 180 291 Td (HTML5, CSS3, JavaScript) Tj ET
+BT /F2 10 Tf 0.15 0.15 0.2 rg 45 276 Td (Database & Tools:) Tj ET
+BT /F1 10 Tf 0.3 0.3 0.35 rg 180 276 Td (MySQL, Apache Tomcat, Git, GitHub, VS Code) Tj ET
+BT /F2 10 Tf 0.15 0.15 0.2 rg 45 261 Td (Core Concepts:) Tj ET
+BT /F1 10 Tf 0.3 0.3 0.35 rg 180 261 Td (Data Structures, OOP, Artificial Intelligence & ML) Tj ET
+BT /F2 10 Tf 0.15 0.15 0.2 rg 45 246 Td (Soft Skills:) Tj ET
+BT /F1 10 Tf 0.3 0.3 0.35 rg 180 246 Td (Problem Solving, Teamwork, Communication) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4394
+%%EOF
