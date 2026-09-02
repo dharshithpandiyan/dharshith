@@ -67,4 +67,59 @@ document.addEventListener('DOMContentLoaded', () => {
             closeModal();
         }
     });
+
+    // 4. Contact Form Submission (Web3Forms)
+    const contactForm = document.getElementById('contactForm');
+    const formStatus = document.getElementById('form-status');
+    const submitBtn = document.getElementById('submitBtn');
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(contactForm);
+
+            submitBtn.textContent = 'SENDING...';
+            submitBtn.disabled = true;
+
+            const object = Object.fromEntries(formData);
+            const json = JSON.stringify(object);
+
+            try {
+                const response = await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: json
+                });
+                const result = await response.json();
+                
+                formStatus.style.display = 'block';
+                
+                if (response.status === 200) {
+                    formStatus.innerHTML = 'Message sent successfully!';
+                    formStatus.style.color = '#10b981'; // green
+                    contactForm.reset();
+                } else {
+                    console.log(response);
+                    formStatus.innerHTML = result.message || 'Something went wrong!';
+                    formStatus.style.color = '#ef4444'; // red
+                }
+            } catch (error) {
+                console.log(error);
+                formStatus.style.display = 'block';
+                formStatus.innerHTML = 'Something went wrong!';
+                formStatus.style.color = '#ef4444';
+            } finally {
+                submitBtn.textContent = 'SEND MESSAGE';
+                submitBtn.disabled = false;
+                
+                setTimeout(() => {
+                    formStatus.style.display = 'none';
+                }, 5000);
+            }
+        });
+    }
 });

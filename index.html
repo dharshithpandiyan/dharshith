@@ -116,8 +116,10 @@
                 <div class="about-grid">
                     <div class="about-content reveal-up">
                         <img src="assets/images/profile.jpg" alt="Dharshith Pandiyan" class="profile-pic">
-                        <p>I am an aspiring software developer currently pursuing my B.Tech in Information Technology. My core interests lie at the intersection of software development and artificial intelligence.</p>
-                        <p>I focus on building practical projects, learning modern technologies, and finding ways to apply algorithmic thinking to real-world problems. Whether it's backend systems in Java or experimenting with PyTorch for Machine Learning, I am driven by curiosity and a desire to build robust solutions.</p>
+                        <p><strong>I’m Dharshith Pandiyan, an aspiring software developer and B.Tech IT student passionate about building practical solutions at the intersection of software engineering and artificial intelligence.</strong></p>
+                        <p>My approach is centered on understanding systems from the ground up. By working with <strong>Java, Python, and modern web technologies</strong>, and integrating <strong>Machine Learning</strong> models, I focus on turning complex technical problems into scalable, real-world applications.</p>
+                        <p>I am continuously expanding my expertise in <strong>Data Structures, backend architecture, and AI</strong>, driven by the goal of engineering reliable and meaningful products.</p>
+                        <p style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 600; color: var(--text-primary); margin-top: var(--space-6); line-height: 1.4;">Build with purpose. Learn continuously. Improve relentlessly.</p>
                     </div>
                     
                     <div class="about-stats">
@@ -163,21 +165,26 @@
                 </div>
                 
                 <div class="skills-grid-new reveal-up">
-                    <!-- Cards -->
-                    <div class="skill-card"><i class="devicon-c-plain"></i></div>
-                    <div class="skill-card"><i class="devicon-cplusplus-plain"></i></div>
-                    <div class="skill-card"><i class="devicon-java-plain"></i></div>
-                    <div class="skill-card"><i class="devicon-python-plain"></i></div>
-                    <div class="skill-card"><i class="devicon-html5-plain"></i></div>
-                    <div class="skill-card"><i class="devicon-css3-plain"></i></div>
-                    <div class="skill-card"><i class="devicon-javascript-plain"></i></div>
-                    <div class="skill-card"><i class="devicon-mysql-plain"></i></div>
-                    <div class="skill-card"><i class="devicon-tomcat-line"></i></div>
-                    <div class="skill-card"><i class="devicon-git-plain"></i></div>
-                    <div class="skill-card"><i class="devicon-github-original"></i></div>
-                    <div class="skill-card"><i class="devicon-vscode-plain"></i></div>
+                    <!-- Core & Web -->
+                    <div class="skill-card" title="Java"><i class="devicon-java-plain"></i></div>
+                    <div class="skill-card" title="Python"><i class="devicon-python-plain"></i></div>
+                    <div class="skill-card" title="JavaScript"><i class="devicon-javascript-plain"></i></div>
+                    <div class="skill-card" title="MySQL"><i class="devicon-mysql-plain"></i></div>
+                    <div class="skill-card" title="HTML"><i class="devicon-html5-plain"></i></div>
+                    <div class="skill-card" title="CSS"><i class="devicon-css3-plain"></i></div>
+                    <div class="skill-card" title="Tomcat"><i class="devicon-tomcat-line"></i></div>
+                    
+                    <!-- Tools & Deployment -->
+                    <div class="skill-card" title="Git"><i class="devicon-git-plain"></i></div>
+                    <div class="skill-card" title="GitHub"><i class="devicon-github-original"></i></div>
+                    <div class="skill-card" title="VS Code"><i class="devicon-vscode-plain"></i></div>
+                    <div class="skill-card" title="Vercel"><i class="devicon-vercel-original"></i></div>
+
+                    <!-- AI Tools -->
+                    <div class="skill-card" title="Cursor" style="font-size: 0.8rem; text-align: center; font-weight: 600;">Cursor</div>
+                    <div class="skill-card" title="Claude" style="font-size: 0.8rem; text-align: center; font-weight: 600;">Claude</div>
+                    <div class="skill-card" title="Antigravity" style="font-size: 0.8rem; text-align: center; font-weight: 600;">AGY</div>
                 </div>
-            </div>
         </section>
 
         <!-- Experience / Journey -->
@@ -292,31 +299,35 @@
                     <h2 class="contact-title">Let's build something meaningful.</h2>
                     <p class="contact-subtitle">Share your idea, your project, or just say hello. I'll reply with the next steps.</p>
                     
-                    <form class="contact-form" action="mailto:dharshithpandiyan@gmail.com" method="GET" enctype="text/plain">
+                    <form class="contact-form" id="contactForm">
+                        <!-- Add your Web3Forms Access Key here -->
+                        <input type="hidden" name="access_key" value="65035d45-5496-4c4e-8ca2-0ddfca88b8af">
+                        
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="name">NAME</label>
-                                <input type="text" id="name" name="subject" placeholder="Your name" required>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">EMAIL</label>
-                                <input type="email" id="email" placeholder="you@example.com" required>
+                                <input type="email" id="email" name="email" placeholder="you@example.com" required>
                             </div>
                         </div>
                         
                         <div class="form-group">
                             <label for="message">YOUR IDEA</label>
-                            <textarea id="message" name="body" rows="4" placeholder="Tell me about your idea, project, or collaboration..." required></textarea>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell me about your idea, project, or collaboration..." required></textarea>
                         </div>
                         
                         <div class="contact-footer">
-                            <button type="submit" class="btn btn-primary pill">SEND MESSAGE</button>
+                            <button type="submit" class="btn btn-primary pill" id="submitBtn">SEND MESSAGE</button>
                             <div class="contact-info-links">
                                 <a href="mailto:dharshithpandiyan@gmail.com">dharshithpandiyan@gmail.com</a>
                                 <a href="https://www.linkedin.com/in/p-dharshith-916966375" target="_blank">LinkedIn</a>
                                 <a href="https://github.com/dharshithpandiyan" target="_blank">GitHub</a>
                             </div>
                         </div>
+                        <p id="form-status" style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-muted);"></p>
                     </form>
                 </div>
             </div>
@@ -411,7 +422,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=2"></script>
     <script src="js/animations.js"></script>
     <script src="js/interactions.js"></script>
 </body>
