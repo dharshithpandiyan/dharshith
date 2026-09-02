@@ -16,23 +16,31 @@
     }
 
     .cursor-dot {
-        width: 8px;
-        height: 8px;
-        background-color: var(--accent);
+        width: 6px;
+        height: 6px;
+        background-color: var(--text-primary);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
 
     .cursor-outline {
-        width: 40px;
-        height: 40px;
-        border: 1px solid rgba(129, 140, 248, 0.5); /* Accent color half opacity */
-        transition: width 0.2s, height 0.2s, background-color 0.2s;
+        width: 32px;
+        height: 32px;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1), height 0.4s cubic-bezier(0.16, 1, 0.3, 1), background 0.4s, border-color 0.4s;
+        mix-blend-mode: normal;
     }
 
     .cursor-outline.hover {
-        width: 60px;
-        height: 60px;
-        background-color: rgba(129, 140, 248, 0.1);
-        border-color: transparent;
+        width: 64px;
+        height: 64px;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
     }
 
     /* Hide default cursor on interactables when custom cursor is active */
